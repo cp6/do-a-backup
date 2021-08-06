@@ -1,0 +1,25 @@
+{
+  "name": "corbpie/do-a-backup",
+  "description": "Upload compressed SQL and directories via FTP",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-ftp": "*",
+    "ext-zip": "*",
+    "ext-pdo": "*",
+    "ext-zlib": "*"
+  },
+  "authors": [
+    {
+      "name": "corbpie",
+      "email": "contact@corbpie.com"
+    }
+  ],
+  "minimum-stability": "dev"
+}
